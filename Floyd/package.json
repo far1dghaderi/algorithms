@@ -1,0 +1,16 @@
+{
+  "name": "floyd",
+  "version": "1.0.0",
+  "description": "برنامه‌ای بنویسید که به کمک الگوریتم فلوید کوتاه ترین مسیر بین گروه های مبدا و مقصد وارد شده توسط کاربر را پیدا کرده و در خروجی طول مسیر همراه با گره های واسط استفاده شده را نشان دهد",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"tsc -w ./src/index.ts\" \"nodemon ./src/index.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
