@@ -1,0 +1,16 @@
+{
+  "name": "scheduling",
+  "version": "1.0.0",
+  "description": "تمرین برنامه نویسی 2\r برنامه‌ای بنویسید که با استفاده از روش حریصانه زمان‌بندی کارهای زیر را برای تعداد منابع وارد شده توسط کاربر تعیین نماید.\r تعداد کارها 12 خواهد بود و زمان اجرا برای آن‌ها عددی تصادفی بین 10 تا 30 خواهد بود و تعداد منابع 2 تا 4 که توسط کاربر وارد می‌شود",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"tsc -w ./src/index.ts\" \"nodemon ./src/index.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
